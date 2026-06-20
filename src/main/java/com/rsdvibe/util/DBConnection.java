@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/rsd_vibe";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Mysql@123"; // Replace with your MySQL password
+    private static final String USERNAME = "your_username";
+    private static final String PASSWORD = "your_password"; // Replace with your MySQL password
 
     public static Connection getConnection() {
 
